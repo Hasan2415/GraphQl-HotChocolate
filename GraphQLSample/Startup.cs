@@ -9,10 +9,11 @@ public class Startup
     {
         services.AddSingleton<EfDataContext>();
         services.AddScoped<PersonRepository, EFPersonRepository>();
-        
+
         services
             .AddGraphQLServer()
-            .AddQueryType<EFPersonRepository>();
+            .AddQueryType<EFPersonRepository>()
+            .AddMutationType<AddPersonCommandHandler>();
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

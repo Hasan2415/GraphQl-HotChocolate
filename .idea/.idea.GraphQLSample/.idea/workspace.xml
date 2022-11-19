@@ -5,8 +5,11 @@
     <projectFile profileName="IIS Express">GraphQLSample/GraphQLSample.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a4a5bfb-b278-49d5-8c44-6af9cc541095" name="Changes" comment="mutation for person">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GraphQLSample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GraphQLSample/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1a4a5bfb-b278-49d5-8c44-6af9cc541095" name="Changes" comment="add git ignore file to project">
+      <change afterPath="$PROJECT_DIR$/DataLayer/AddPersonCommandHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataLayer/Contracts/AddPersonHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataLayer/Dtos/AddPersonDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GraphQLSample/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GraphQLSample/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +87,14 @@
       <workItem from="1668005324283" duration="841000" />
       <workItem from="1668871821221" duration="4663000" />
     </task>
+    <task id="LOCAL-00001" summary="add git ignore file to project">
+      <created>1668879759513</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668879759513</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,5 +115,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="add git ignore file to project" />
+    <option name="LAST_COMMIT_MESSAGE" value="add git ignore file to project" />
   </component>
 </project>
