@@ -5,24 +5,8 @@
     <projectFile profileName="IIS Express">GraphQLSample/GraphQLSample.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a4a5bfb-b278-49d5-8c44-6af9cc541095" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DataLayer/PersonRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GraphQLSample/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphQLSample.sln" beforeDir="false" afterPath="$PROJECT_DIR$/GraphQLSample.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphQLSample/GraphQLSample.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/GraphQLSample/GraphQLSample.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphQLSample/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GraphQLSample/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphQLSample/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/GraphQLSample/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphQLSample/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/GraphQLSample/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphQLSample/obj/Debug/net6.0/GraphQLSample.GlobalUsings.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GraphQLSample/obj/Debug/net6.0/GraphQLSample.GlobalUsings.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphQLSample/obj/Debug/net6.0/GraphQLSample.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GraphQLSample/obj/Debug/net6.0/GraphQLSample.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphQLSample/obj/Debug/net6.0/GraphQLSample.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GraphQLSample/obj/Debug/net6.0/GraphQLSample.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphQLSample/obj/GraphQLSample.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/GraphQLSample/obj/GraphQLSample.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphQLSample/obj/GraphQLSample.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/GraphQLSample/obj/GraphQLSample.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphQLSample/obj/GraphQLSample.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/GraphQLSample/obj/GraphQLSample.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphQLSample/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/GraphQLSample/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphQLSample/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GraphQLSample/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphQLSample/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/GraphQLSample/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraphQLSample/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/GraphQLSample/obj/rider.project.restore.info" afterDir="false" />
+    <list default="true" id="1a4a5bfb-b278-49d5-8c44-6af9cc541095" name="Changes" comment="mutation for person">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GraphQLSample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GraphQLSample/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +17,8 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a1a59674744830c52bb8ec2c75c1a5b1b21ec7b871acd25d24a346472da73b/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ee346d537adeab067e1a4abdffd52eee03a9351eae04852401b3ef1eecb5/EndpointRoutingApplicationBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DataLayer/Person.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DataLayer/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Hasan/OneDrive/Desktop/Projects/GraphQLSample/GraphQLSample/Startup.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -45,16 +31,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.GraphQLSample">
     <configuration name="GraphQLSample" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/GraphQLSample/GraphQLSample.csproj" />
